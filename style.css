@@ -1,0 +1,20 @@
+.box{
+    width: 800px;
+    height: 600px;
+    background-color: aquamarine;
+}
+@media only screen and (min-width:200px) and (max-width:400px){
+    .box{
+        background-color: aqua;
+    }
+}
+@media only screen and (min-width:401px) and (max-width:600px){
+    .box{
+        background-color: blueviolet;
+    }
+}
+@media only screen and (min-width:601px) {
+    .box{
+        background-color: brown;
+    }
+}
